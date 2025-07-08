@@ -2,9 +2,6 @@
 from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 
-# Import Stripe payment endpoints
-from server import *
-
 # Import your API routers
 from admin_login import router as admin_router
 from dishes_api import router as dishes_router
