@@ -6,3 +6,4 @@ stripe
 mysql-connector-python
 pytz
 python-dotenv
+bcrypt
