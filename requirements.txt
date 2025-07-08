@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+python-multipart
+stripe
+mysql-connector-python
+pytz
+shutil
+typing
+python-dotenv
