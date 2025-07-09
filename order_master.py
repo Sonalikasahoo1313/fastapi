@@ -526,6 +526,7 @@ def fetch_orders_by_customer(customer_id: str):
                 cursor.execute("SELECT * FROM ordextra_details WHERE item_id=%s", (item["item_id"],))
                 extras = cursor.fetchall()
                 items_with_extras.append({
+                    "item_id": item["item_id"],
                     "menu_id": item["menu_id"],
                     "meal_type": item["meal_type"],
                     "delivery_date": format_uk(item.get("delivery_date")),
